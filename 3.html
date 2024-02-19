@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> test </title>
+    <meta charset="utf-8"> 
+</head>
+<body>
+    <script>
+        var coworkers = {
+            "programmer" : "egoing" ,
+            "designer" : "leezche" ,
+            "engineer" : "duru" 
+        };
+        document.write("programmer :"+coworkers.programmer+"<br>");
+        coworkers["data scientist"] = "taeho" ;
+        document.write("data scientist:"+coworkers["data scientist"]);
+
+        for (var key in coworkers) {
+            document.write(key + ':' + coworkers[key] + '<br>');
+        }
+        coworkers.showAll = function(){
+
+        }
+
+
+
+    </script>
+    <h2> </h2>
+    <script>
+        document.write(coworkerss[0]);
+        document.write(coworkerss.length);
+        document.write('<li>1</li>');
+        var i=0;
+        while(i < coworkerss.length){
+        document.write('<li><a href="http://a.com/'+coworkerss[i]+'">'+coworkerss[i]+'</a></li>');
+        i = i+1;
+        }
+        
+    </script>
+</body>
+</html>
